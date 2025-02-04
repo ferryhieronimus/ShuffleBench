@@ -2,8 +2,8 @@ strimzi:
   kafka:
     storage:
       type: persistent-claim
-      size: 500Gi
-      class: kafka
+      size: 20Gi
+      class: local-path
       deleteClaim: true
 
 operator:
